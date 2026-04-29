@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74437529203471
+D WE-HCF Round SMT High Current Inductor Size 2920; L = 470 H 0.2; IR = 5.5 A; Isat = 3.7 A; RDC = 83.45 m
+K
+F https://www.we-online.com/catalog/datasheet/74437529203471.pdf
+$ENDCMP
+#
+#End Doc Library
