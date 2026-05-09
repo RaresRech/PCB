@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.5,
-          "height": 3.0,
-          "width": 3.0
+          "drill": 0.0,
+          "height": 1.1,
+          "width": 4.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -243,6 +243,10 @@
         {
           "diameter": 1.0,
           "drill": 0.8
+        },
+        {
+          "diameter": 2.5,
+          "drill": 2.3
         }
       ],
       "zones_allow_external_fillets": false,
@@ -542,7 +546,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "buck Boost Gerbert/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
