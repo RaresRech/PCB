@@ -556,6 +556,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3Dmodels/282836-2.stp"
+			(offset
+				(xyz 2.5 -4 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_DIP:DIP-8_W7.62mm"
 		(layer "F.Cu")
@@ -1644,6 +1655,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3Dmodels/RAD-DY-GF_3.stp"
+			(offset
+				(xyz 5 -3.5 30.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
+			)
+		)
 	)
 	(footprint "LED_THT:LED_D5.0mm_IRGrey"
 		(layer "F.Cu")
@@ -2653,6 +2675,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3Dmodels/282836-2.stp"
+			(offset
+				(xyz 2.5 -4 5.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Heatsink_laborator:Heasink_lab"
 		(layer "F.Cu")
@@ -3035,6 +3068,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3Dmodels/RAD-DY-GF_3.stp"
+			(offset
+				(xyz 5 -3.5 30.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
+			)
+		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -10622,7 +10666,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/3Dmodels/282836-2.stp"
+			(offset
+				(xyz 2.5 -3.5 5.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -11969,6 +12024,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3Dmodels/TMA 1505S--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz -2.5 -7.5 1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -12542,6 +12608,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3Dmodels/RAD-DY-GF_3.stp"
+			(offset
+				(xyz 5 -3.5 30.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
+			)
+		)
 	)
 	(footprint "Bobina:Bobina 470uH 3A"
 		(layer "F.Cu")
@@ -12684,6 +12761,17 @@
 			(uuid "0d90e484-ca76-4c2d-8c4e-582611984927")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3Dmodels/DPO-3.0-33.stp"
+			(offset
+				(xyz 0 -0.5 16.5)
+			)
+			(scale
+				(xyz 1.8 1.6 1.7)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Heatsink_laborator:Heasink_lab"
 		(layer "F.Cu")
@@ -13066,6 +13154,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3Dmodels/RAD-DY-GF_3.stp"
+			(offset
+				(xyz 5 -3.5 30.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
@@ -14127,6 +14226,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3Dmodels/282836-2.stp"
+			(offset
+				(xyz 2.5 -4 6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-220-2_Vertical"
 		(layer "F.Cu")
@@ -14551,6 +14661,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3Dmodels/MTS-1xx-A2-blue.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "Display:ER_OLEDM0.91_1x-I2C"
 		(layer "F.Cu")
@@ -14771,6 +14892,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/3Dmodels/OLED 128 x 32 Display Assembly.step"
+			(offset
+				(xyz 4 -18 4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -18362,6 +18494,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3Dmodels/282836-2.stp"
+			(offset
+				(xyz 2.5 -4 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_THT:SW_PUSH_6mm_H5mm"
 		(layer "F.Cu")
@@ -20286,25 +20429,26 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Module.3dshapes/Arduino_Nano_WithMountingHoles.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 0 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
-		(model "C:/Program Files/KiCad/10.0/3D_Models/arduino nano.IGS"
+		(model "${KIPRJMOD}/3Dmodels/arduino nano.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 4)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -21840,6 +21984,14 @@
 		(uuid "5f7dfcc3-6e3f-448e-a691-e40b2bd7da7a")
 	)
 	(segment
+		(start 124.85 151)
+		(end 124.85 157.5)
+		(width 1.5)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_1)")
+		(uuid "650fd876-5eb6-4768-a55d-b40aabc86b80")
+	)
+	(segment
 		(start 77.1275 139.8325)
 		(end 76.0825 139.8325)
 		(width 1)
@@ -21992,6 +22144,14 @@
 		(uuid "9800dd86-600d-4028-8359-6f4c30bddf82")
 	)
 	(segment
+		(start 107.75 151)
+		(end 107.75 157.5)
+		(width 1.5)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_1)")
+		(uuid "98b2c038-dad8-47f3-af89-392747d30280")
+	)
+	(segment
 		(start 78.9 136.3)
 		(end 78.9675 136.2325)
 		(width 1)
@@ -22038,6 +22198,14 @@
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_1)")
 		(uuid "b8e4f425-f1ea-403b-a5ee-46f9d60873f1")
+	)
+	(segment
+		(start 116.3 151)
+		(end 116.3 157.5)
+		(width 1.5)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_1)")
+		(uuid "bc496305-a61d-415c-87a6-912227e8d746")
 	)
 	(segment
 		(start 76.35 135.95)
@@ -22214,6 +22382,14 @@
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_1)")
 		(uuid "ef517f05-9b61-4af6-b5b0-b0a989fbc20e")
+	)
+	(segment
+		(start 99.2 151)
+		(end 99.2 157.5)
+		(width 1.5)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_1)")
+		(uuid "f09a8253-e5aa-41da-aee3-12c47b26c687")
 	)
 	(segment
 		(start 106.811523 108.188477)
@@ -23864,6 +24040,14 @@
 		(uuid "665f519f-5597-4544-bd7d-301fed5785c4")
 	)
 	(segment
+		(start 120.8 151)
+		(end 120.8 157.5)
+		(width 1.5)
+		(layer "F.Cu")
+		(net "Net-(U2-D3)")
+		(uuid "a4ce8dd9-938a-4eb2-ae12-966c2358465a")
+	)
+	(segment
 		(start 97.5175 119.2225)
 		(end 105.641 127.346)
 		(width 1.5)
@@ -23944,6 +24128,14 @@
 		(uuid "75cc4b95-c37c-4c91-b3b5-3a2a2930874b")
 	)
 	(segment
+		(start 129.35 151)
+		(end 129.35 157.5)
+		(width 1.5)
+		(layer "F.Cu")
+		(net "Net-(U2-D2)")
+		(uuid "db3da13a-b702-453d-b0b3-c21c93406697")
+	)
+	(segment
 		(start 100.0575 119.2225)
 		(end 106.554 125.719)
 		(width 1.5)
@@ -23982,6 +24174,14 @@
 		(layer "F.Cu")
 		(net "Net-(U2-D5)")
 		(uuid "23ce8717-088b-42c8-a513-6d8ae9706c8f")
+	)
+	(segment
+		(start 103.7 151)
+		(end 103.7 157.5)
+		(width 1.5)
+		(layer "F.Cu")
+		(net "Net-(U2-D5)")
+		(uuid "789a7dd5-a0d5-49a3-ba69-b2d1387f9ecf")
 	)
 	(segment
 		(start 92.4375 119.2225)
@@ -24662,6 +24862,14 @@
 		(layer "F.Cu")
 		(net "Net-(U2-A4)")
 		(uuid "87f5d47b-a2ca-4167-ba93-cf8be7a03687")
+	)
+	(segment
+		(start 112.25 151)
+		(end 112.25 157.5)
+		(width 1.5)
+		(layer "F.Cu")
+		(net "Net-(U2-D4)")
+		(uuid "140e43a4-a57c-425d-8b83-ece1a2b7bc27")
 	)
 	(segment
 		(start 114.6 131.9)

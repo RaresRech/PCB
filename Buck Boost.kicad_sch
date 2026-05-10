@@ -3956,7 +3956,7 @@
 		(uuid "1431d1da-9c29-4e5b-82b1-609e9516707c")
 	)
 	(junction
-		(at 36.83 171.45)
+		(at 43.18 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1745725c-5412-4e9f-a710-2b662ef5b2fc")
@@ -4070,7 +4070,7 @@
 		(uuid "7ad70e71-6791-44a0-908b-58239554b48c")
 	)
 	(junction
-		(at 36.83 161.29)
+		(at 43.18 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86074b4b-c912-44ab-96cd-a169cdc920b0")
@@ -4094,7 +4094,7 @@
 		(uuid "8f29c6de-011f-4110-911e-886f7a8de8b0")
 	)
 	(junction
-		(at 36.83 151.13)
+		(at 43.18 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94217a89-bf6b-4bf3-8acf-d82924198c1e")
@@ -4197,7 +4197,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 151.13) (xy 49.53 151.13)
+			(xy 59.69 151.13) (xy 55.88 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4247,7 +4247,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 161.29) (xy 39.37 161.29)
+			(xy 43.18 161.29) (xy 45.72 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4387,7 +4387,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 171.45) (xy 39.37 171.45)
+			(xy 43.18 171.45) (xy 45.72 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4427,7 +4427,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 140.97) (xy 39.37 140.97)
+			(xy 43.18 140.97) (xy 45.72 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4637,7 +4637,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 177.8) (xy 36.83 177.8)
+			(xy 66.04 177.8) (xy 43.18 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4667,7 +4667,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 140.97) (xy 49.53 140.97)
+			(xy 58.42 140.97) (xy 55.88 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4677,7 +4677,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 171.45) (xy 62.23 171.45)
+			(xy 55.88 171.45) (xy 62.23 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4847,7 +4847,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 171.45) (xy 36.83 161.29)
+			(xy 43.18 171.45) (xy 43.18 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4977,7 +4977,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 177.8) (xy 36.83 171.45)
+			(xy 43.18 177.8) (xy 43.18 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5237,7 +5237,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 161.29) (xy 36.83 151.13)
+			(xy 43.18 161.29) (xy 43.18 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5447,7 +5447,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 161.29) (xy 49.53 161.29)
+			(xy 60.96 161.29) (xy 55.88 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5887,7 +5887,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 151.13) (xy 39.37 151.13)
+			(xy 43.18 151.13) (xy 45.72 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6107,7 +6107,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 151.13) (xy 36.83 140.97)
+			(xy 43.18 151.13) (xy 43.18 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6544,7 +6544,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 44.45 140.97 0)
+		(at 50.8 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6554,8 +6554,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30faf346-53c5-4868-a6c0-a1496438005c")
-		(property "Reference" "Stanga"
-			(at 44.45 133.35 0)
+		(property "Reference" "Stanga1"
+			(at 50.8 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6565,7 +6565,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 44.45 135.89 0)
+			(at 50.8 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6575,7 +6575,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
-			(at 44.45 135.89 0)
+			(at 50.8 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6586,7 +6586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 135.89 0)
+			(at 50.8 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6597,7 +6597,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 44.45 140.97 0)
+			(at 50.8 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6616,7 +6616,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Stanga")
+					(reference "Stanga1")
 					(unit 1)
 				)
 			)
@@ -8286,7 +8286,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 44.45 171.45 0)
+		(at 50.8 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8296,8 +8296,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78f9a39f-a99b-4355-871a-92d24ceb4399")
-		(property "Reference" "Dreapta"
-			(at 44.45 163.83 0)
+		(property "Reference" "Dreapta1"
+			(at 50.8 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8307,7 +8307,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 44.45 166.37 0)
+			(at 50.8 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8317,7 +8317,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
-			(at 44.45 166.37 0)
+			(at 50.8 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8328,7 +8328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 166.37 0)
+			(at 50.8 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8339,7 +8339,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 44.45 171.45 0)
+			(at 50.8 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8358,7 +8358,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Dreapta")
+					(reference "Dreapta1")
 					(unit 1)
 				)
 			)
@@ -8603,7 +8603,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 44.45 161.29 0)
+		(at 50.8 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8613,8 +8613,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a1e1e96-c8d1-41b8-9777-8ee374f43495")
-		(property "Reference" "Jos"
-			(at 44.45 153.67 0)
+		(property "Reference" "Jos1"
+			(at 50.8 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8624,7 +8624,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 44.45 156.21 0)
+			(at 50.8 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8634,7 +8634,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
-			(at 44.45 156.21 0)
+			(at 50.8 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8645,7 +8645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 156.21 0)
+			(at 50.8 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8656,7 +8656,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 44.45 161.29 0)
+			(at 50.8 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8675,7 +8675,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Jos")
+					(reference "Jos1")
 					(unit 1)
 				)
 			)
@@ -9319,7 +9319,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 44.45 151.13 0)
+		(at 50.8 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9329,8 +9329,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af5e2f2a-c422-43ce-9a3d-1a4b4958a02e")
-		(property "Reference" "Sus"
-			(at 44.45 143.51 0)
+		(property "Reference" "Sus1"
+			(at 50.8 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9340,7 +9340,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 44.45 146.05 0)
+			(at 50.8 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9350,7 +9350,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
-			(at 44.45 146.05 0)
+			(at 50.8 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9361,7 +9361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 146.05 0)
+			(at 50.8 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9372,7 +9372,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 44.45 151.13 0)
+			(at 50.8 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9391,7 +9391,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Sus")
+					(reference "Sus1")
 					(unit 1)
 				)
 			)
