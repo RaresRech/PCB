@@ -549,7 +549,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "buck Boost Gerbert/",
+      "plot": "Pdfs/V0.2",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -626,12 +626,24 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -694,7 +706,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "Stanga1,J5,Jos1,SW1-4,Dreapta1,Sus1",
+    "used_designators": "J1-7,Vies+1,\\-Vin1,Stanga1,Jos1,+Vies1,SW1-4,Dreapta1,Sus1,TP1-6,L1,Vies\\-1,Vin+1,Vin\\-1,\\-Vies1,+Vin1,C1-7,D1-4,HS1-4,LED1-6,K1-2,R1-14,T1-2,U1-5",
     "variants": []
   },
   "sheets": [

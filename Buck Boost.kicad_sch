@@ -7,8 +7,9 @@
 	(title_block
 		(title "Buck Boost V0.1")
 		(date "2026-04-08")
-		(comment 1 "Rechesan Rares ")
-		(comment 2 "Okochi Nikolas Gabriel")
+		(comment 1 "Nasalean Ralph Alexandru")
+		(comment 2 "Rechesan Rares ")
+		(comment 3 "Okochi Nikolas Gabriel")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
@@ -207,6 +208,129 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3986,6 +4110,12 @@
 		(uuid "2abdc604-fdfa-4e3e-af5d-d1878f1e849a")
 	)
 	(junction
+		(at 78.74 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c4fb3bc-b1fe-4d14-9de4-e7be761a040b")
+	)
+	(junction
 		(at 54.61 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4040,6 +4170,12 @@
 		(uuid "58c192ce-d398-4867-9a06-e830aac005b5")
 	)
 	(junction
+		(at 31.75 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a533ac8-7211-4709-ab87-9f4f663794be")
+	)
+	(junction
 		(at 105.41 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4082,6 +4218,12 @@
 		(uuid "87038003-69cf-4093-8f03-33a5f7af8969")
 	)
 	(junction
+		(at 269.24 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aa42c8f-01f5-495c-a139-ed47bde9cf86")
+	)
+	(junction
 		(at 260.2738 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4098,6 +4240,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94217a89-bf6b-4bf3-8acf-d82924198c1e")
+	)
+	(junction
+		(at 260.35 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9450f71a-a1be-409d-9dc6-a21bd4fc8798")
 	)
 	(junction
 		(at 69.85 107.95)
@@ -4128,6 +4276,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a47fe744-c760-4476-9a52-fba33537b1ab")
+	)
+	(junction
+		(at 34.29 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5b6e821-988c-4924-94e5-95886ac83c87")
 	)
 	(junction
 		(at 97.79 72.39)
@@ -4184,16 +4338,22 @@
 		(uuid "d6992ddb-c194-454b-b106-3815a84fa6ac")
 	)
 	(junction
-		(at 260.35 93.98)
+		(at 36.83 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e503f9de-623b-449f-b4ec-421da8d98a29")
+		(uuid "dd31e436-2786-44df-8449-299d1bde5761")
 	)
 	(junction
 		(at 181.61 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2c565cd-94f7-4bcf-96b3-9d05d5c4f9b5")
+	)
+	(junction
+		(at 269.24 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f46b0ca2-3309-438b-9ab1-08ab673d244e")
 	)
 	(wire
 		(pts
@@ -4297,7 +4457,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.383 73.152) (xy 270.383 93.98)
+			(xy 269.24 73.66) (xy 269.24 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4347,7 +4507,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.2738 43.561) (xy 260.2738 44.45)
+			(xy 260.2738 42.799) (xy 260.2738 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4367,7 +4527,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.383 43.561) (xy 270.383 70.612)
+			(xy 269.24 42.799) (xy 269.24 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4414,6 +4574,16 @@
 			(type default)
 		)
 		(uuid "140c2165-acc8-4217-944a-6e41ccf501b0")
+	)
+	(wire
+		(pts
+			(xy 269.24 63.5) (xy 269.24 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149d2dd7-76b7-4d18-a33f-ef310b7b9afa")
 	)
 	(wire
 		(pts
@@ -4937,6 +5107,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 78.74) (xy 271.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c09a90-8a71-4eb6-8f2c-f4b65795e9f6")
+	)
+	(wire
+		(pts
 			(xy 120.65 38.1) (xy 132.08 38.1)
 		)
 		(stroke
@@ -5127,16 +5307,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 44.45) (xy 41.91 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "637049f7-0c10-4a5b-b423-3271b37b1019")
-	)
-	(wire
-		(pts
 			(xy 100.33 72.39) (xy 97.79 72.39)
 		)
 		(stroke
@@ -5177,7 +5347,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.2738 43.561) (xy 270.383 43.561)
+			(xy 260.2738 42.799) (xy 269.24 42.799)
 		)
 		(stroke
 			(width 0)
@@ -5247,7 +5417,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 93.98) (xy 270.383 93.98)
+			(xy 260.35 93.98) (xy 269.24 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5277,6 +5447,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 63.5) (xy 273.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7491eab4-6240-4a03-af90-fb25d1c64dfd")
+	)
+	(wire
+		(pts
 			(xy 181.61 82.55) (xy 181.61 83.82)
 		)
 		(stroke
@@ -5284,6 +5464,16 @@
 			(type default)
 		)
 		(uuid "74af9a2f-b6e0-4fab-9f32-bc74102d7dcb")
+	)
+	(wire
+		(pts
+			(xy 269.24 73.66) (xy 270.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7577b8aa-cffe-4501-a0af-61c1dd465d8e")
 	)
 	(wire
 		(pts
@@ -5527,6 +5717,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 44.45) (xy 41.91 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e8b656-87b8-4255-a00c-0e575fe0cc90")
+	)
+	(wire
+		(pts
 			(xy 260.35 69.85) (xy 260.35 71.12)
 		)
 		(stroke
@@ -5734,6 +5934,16 @@
 			(type default)
 		)
 		(uuid "aa490332-b105-4091-a61f-5b070e7d4c3b")
+	)
+	(wire
+		(pts
+			(xy 30.48 44.45) (xy 36.83 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6bbb11-5fbe-4db8-b92e-d4744bb0b7e5")
 	)
 	(wire
 		(pts
@@ -6087,6 +6297,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 78.74) (xy 269.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3290e57-babd-4ced-a3ec-42278d7c29de")
+	)
+	(wire
+		(pts
 			(xy 30.48 50.8) (xy 30.48 54.61)
 		)
 		(stroke
@@ -6184,6 +6404,16 @@
 			(type default)
 		)
 		(uuid "e8e3a56e-1f69-413c-8748-c91e8ff74940")
+	)
+	(wire
+		(pts
+			(xy 269.24 71.12) (xy 270.51 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea780361-3967-45fb-8d29-ee3872f22891")
 	)
 	(wire
 		(pts
@@ -6384,6 +6614,84 @@
 			(type default)
 		)
 		(uuid "ff707737-08a0-45f3-ac1d-776a9a939e9f")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 78.74 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "001777d9-91b7-46da-87af-5bb154ac1443")
+		(property "Reference" "D9"
+			(at 81.28 109.728 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 81.28 112.2679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 83.82 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 78.74 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca23f401-911b-4ae9-b4c5-2019b4aaacbc")
+		)
+		(instances
+			(project "Buck Boost"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -6634,7 +6942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34fbd97f-6b09-41e2-82b0-ad1fb75ce6ae")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 117.348 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6697,7 +7005,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6715,7 +7023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3769435f-e100-4ca6-86a2-e77185243c49")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 137.16 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6796,7 +7104,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6913,7 +7221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d356e06-bcff-40fd-989d-9a34b54ab229")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 205.74 59.436 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6974,7 +7282,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6992,7 +7300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e82a76a-bcf0-4da2-93b2-a35cfe25ddd9")
-		(property "Reference" "R6"
+		(property "Reference" "R12"
 			(at 250.698 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7055,7 +7363,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R6")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7153,7 +7461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48a8c1f5-4bcb-4560-9762-44aaefee4419")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 67.818 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7300,7 +7608,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7394,7 +7702,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Heatsink_Pad_2Pin")
-		(at 231.14 34.29 0)
+		(at 231.14 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7404,8 +7712,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e31277f-0ac7-4472-aa79-08d4ba8af759")
-		(property "Reference" "HS2"
-			(at 234.95 32.3849 0)
+		(property "Reference" "HS4"
+			(at 234.95 33.6549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7416,7 +7724,7 @@
 			)
 		)
 		(property "Value" "Heatsink_Pad_2Pin"
-			(at 234.95 34.9249 0)
+			(at 234.95 36.1949 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7427,7 +7735,7 @@
 			)
 		)
 		(property "Footprint" "Heatsink_laborator:Heasink_lab"
-			(at 231.4448 35.56 0)
+			(at 231.4448 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7438,7 +7746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.4448 35.56 0)
+			(at 231.4448 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7449,7 +7757,7 @@
 			)
 		)
 		(property "Description" "Heatsink with electrical connection, 2 pin"
-			(at 231.14 34.29 0)
+			(at 231.14 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7468,7 +7776,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "HS2")
+					(reference "HS4")
 					(unit 1)
 				)
 			)
@@ -7485,7 +7793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50cb5222-f471-4479-99fc-f0ae935eb2d5")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 258.1148 77.8764 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7548,7 +7856,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7565,7 +7873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57e44959-a561-4ff0-b2c2-f33a5007de35")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 194.818 71.628 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7628,7 +7936,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7646,7 +7954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a694196-a743-4fef-aad3-6af169342eca")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 91.44 104.521 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7707,7 +8015,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7807,7 +8115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63db48b8-ce0f-4894-97e4-78596a73eaff")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 91.44 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7875,7 +8183,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7892,7 +8200,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6784ca86-078f-4b56-aa1f-10a9b141321f")
-		(property "Reference" "HS4"
+		(property "Reference" "HS2"
 			(at 195.072 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7956,7 +8264,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "HS4")
+					(reference "HS2")
 					(unit 1)
 				)
 			)
@@ -7974,7 +8282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72224612-e46f-4429-8bdf-ff820ec8ff63")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 212.852 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8037,7 +8345,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8055,7 +8363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "724578cd-b41e-4dda-bdc5-9e20db548b4c")
-		(property "Reference" "LED7"
+		(property "Reference" "LED2"
 			(at 57.15 30.3529 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8118,7 +8426,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "LED7")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -8136,7 +8444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "732f81ce-cb31-4fc0-95cf-d295265ffe8a")
-		(property "Reference" "LED2"
+		(property "Reference" "LED4"
 			(at 100.203 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8197,7 +8505,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "LED2")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -8453,7 +8761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80f4ff6c-9219-4fff-8011-59fb6d27e80b")
-		(property "Reference" "LED4"
+		(property "Reference" "LED6"
 			(at 250.952 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8516,7 +8824,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "LED4")
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -8534,7 +8842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84e26171-5694-46af-8e26-7797101d40c7")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 175.26 75.819 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8595,7 +8903,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8692,7 +9000,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f46aeee-7778-4142-9f93-9b5da21eb49e")
-		(property "Reference" "C9"
+		(property "Reference" "C2"
 			(at 91.694 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8754,7 +9062,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C9")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8772,7 +9080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91b14c47-7cbc-4f9d-9e05-a0960d4bf541")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 176.657 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8835,7 +9143,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8931,7 +9239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bc0b6fd-acf4-4fe6-99eb-81c4d4b27c5e")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 204.978 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8992,7 +9300,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9088,7 +9396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a165956d-5851-4613-bfe2-14a75626141f")
-		(property "Reference" "R15"
+		(property "Reference" "R3"
 			(at 57.15 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9151,7 +9459,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R15")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9240,6 +9548,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 271.78 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad584bc6-478b-4f0b-868f-d6a04f0afcc1")
+		(property "Reference" "J6"
+			(at 276.86 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 276.86 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 271.78 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 271.78 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31ca6b62-9a17-46bf-bbda-6d6a8f4082f1")
+		)
+		(instances
+			(project "Buck Boost"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 91.44 116.84 90)
 		(unit 1)
@@ -9250,7 +9637,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae7ca275-aa60-4b49-a2dd-846500485a4a")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 91.44 112.522 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9311,7 +9698,86 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R3")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4822e0-33e4-43d2-abf0-804f07d15107")
+		(property "Reference" "D10"
+			(at 34.29 113.5379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 34.29 116.0779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 36.83 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 31.75 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c842d694-561c-4f34-9387-ed8a103a5b09")
+		)
+		(instances
+			(project "Buck Boost"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -9490,7 +9956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2d971a4-365b-4bfa-a368-bb519ba3f316")
-		(property "Reference" "R11"
+		(property "Reference" "R7"
 			(at 144.399 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9553,7 +10019,86 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R11")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 273.05 63.5 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b394edf5-58c1-49cd-94d5-999f66718f6c")
+		(property "Reference" "J5"
+			(at 278.13 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 278.13 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 273.05 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 273.05 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15a1de9c-fbc2-4151-96c9-8466471f2ce3")
+		)
+		(instances
+			(project "Buck Boost"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9570,7 +10115,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8071248-0990-45e9-a49f-9c91d0ffa677")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 108.331 71.2216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9633,7 +10178,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9651,7 +10196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb555c0c-8689-4218-acd8-19ea38888842")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 72.771 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9714,7 +10259,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9732,7 +10277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be9ef0fd-d4b4-4417-94cd-667047c78598")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 262.128 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9795,7 +10340,85 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R12")
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 36.83 44.45 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf8c875a-4fe8-45c1-959a-8275b4b0b944")
+		(property "Reference" "+Vin1"
+			(at 35.306 47.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 36.322 45.212 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 31.75 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 36.83 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e518b7d-973e-49a0-bf8a-0106843386c3")
+		)
+		(instances
+			(project "Buck Boost"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "+Vin1")
 					(unit 1)
 				)
 			)
@@ -9812,7 +10435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c522900a-9921-4fce-aebf-e9bc732f431b")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 38.354 24.638 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9873,7 +10496,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9881,7 +10504,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Heatsink_Pad_2Pin")
-		(at 181.61 34.29 0)
+		(at 181.61 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9892,7 +10515,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6164e8b-d5b0-431d-90bd-e57027bc4d04")
 		(property "Reference" "HS1"
-			(at 185.42 32.3849 0)
+			(at 185.42 33.6549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9903,7 +10526,7 @@
 			)
 		)
 		(property "Value" "Heatsink_Pad_2Pin"
-			(at 185.42 34.9249 0)
+			(at 185.42 36.1949 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9914,7 +10537,7 @@
 			)
 		)
 		(property "Footprint" "Heatsink_laborator:Heasink_lab"
-			(at 181.9148 35.56 0)
+			(at 181.9148 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9925,7 +10548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.9148 35.56 0)
+			(at 181.9148 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9936,7 +10559,7 @@
 			)
 		)
 		(property "Description" "Heatsink with electrical connection, 2 pin"
-			(at 181.61 34.29 0)
+			(at 181.61 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9972,7 +10595,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c92e1fdc-d041-4160-ac3f-2caf34b428aa")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 164.211 69.9516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10035,7 +10658,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -10130,7 +10753,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 275.463 70.612 0)
+		(at 275.59 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10139,8 +10762,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db5e7484-dd5d-477b-9072-50ae90472087")
-		(property "Reference" "J3"
-			(at 278.384 69.596 0)
+		(property "Reference" "J7"
+			(at 278.511 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10151,7 +10774,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 279.4 92.964 90)
+			(at 263.271 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10162,7 +10785,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 275.463 70.612 0)
+			(at 275.59 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10173,7 +10796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.463 70.612 0)
+			(at 275.59 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10184,7 +10807,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 275.463 70.612 0)
+			(at 275.59 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10202,7 +10825,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J3")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10220,7 +10843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbfd1e11-c20f-4e36-ab28-df13c0391377")
-		(property "Reference" "T3"
+		(property "Reference" "T1"
 			(at 181.61 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10287,7 +10910,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "T3")
+					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -10372,6 +10995,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 34.29 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0ad9422-1a94-49cf-a157-60c45bd174d6")
+		(property "Reference" "-Vin1"
+			(at 36.83 50.0379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 36.83 52.5779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 39.37 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 34.29 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bf84a9b-fba2-4b8f-9504-afe743693728")
+		)
+		(instances
+			(project "Buck Boost"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "-Vin1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 171.45 71.12 0)
 		(unit 1)
@@ -10383,7 +11085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4c099c6-eb4f-485c-aebb-ede3c707b34e")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 174.371 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10446,7 +11148,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10464,7 +11166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e81bd229-4b9a-42e0-9a45-7b4f5f0eada1")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 230.632 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10525,7 +11227,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10542,7 +11244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0de6ce3-6b76-4f37-8657-3999fcc7bbca")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 241.681 73.7616 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10605,7 +11307,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10623,7 +11325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe887a9e-abff-4e9b-9253-b3ce8a45a266")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 184.15 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10686,7 +11388,7 @@
 		(instances
 			(project "Buck Boost"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
